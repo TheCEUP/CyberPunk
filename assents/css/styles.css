@@ -1,0 +1,105 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+html{
+  background: linear-gradient(90deg, rgba(81,0,255,1) 0%, rgba(54,0,115,1) 2%, rgba(0,12,104,1) 5%, rgba(1,1,134,1) 50%, rgba(0,12,104,1) 94%, rgba(54,0,115,1) 98%, rgba(81,0,255,1) 100%);
+}
+
+#header{
+  background-image: url("../img/header.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50vh;
+  border-radius: 2%;
+  
+}
+
+.que{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:whitesmoke;
+  text-align: center;
+  padding: 5%;
+  font-weight: 50;
+}
+
+.ropa{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:whitesmoke;
+  text-align: center;
+  font-weight: 50;
+  font-size: 30px;
+ 
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  padding-left: 30%;
+  padding-top: 10%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 10%;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: black;
+  color: white;
+  font-family: Tomorrow;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+UL.col3
+{
+PADDING-RIGHT: 0px;
+FLOAT: left;
+PADDING-BOTTOM: 0px;
+MARGIN: 15px 0px;
+WIDTH: 95%;
+PADDING-TOP: 0px;
+LIST-STYLE-TYPE: none
+}
+
+UL.col3 LI
+{
+PADDING-RIGHT: 2px;
+DISPLAY: inline;
+PADDING-LEFT: 2px;
+FLOAT: left;
+PADDING-BOTTOM: 2px;
+WIDTH: 30%;
+PADDING-TOP: 2px
+}
+
+#footer{
+  text-align: center;
+  color: whitesmoke;
+}
